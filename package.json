@@ -1,0 +1,33 @@
+{
+    "name": "cordova-plugin-util-clipboard",
+    "version": "0.0.1",
+    "description": "Clipboard management plugin for Cordova/PhoneGap",
+    "author": "Nonostante Games",
+    "license": "MIT",
+    "types": "./typings/cordova-plugin-util-clipboard.d.ts",    
+    "cordova": {
+        "id": "cordova-plugin-util-clipboard",
+        "platforms": [
+            "ios",
+            "android",
+            "windows"
+        ]
+    },
+    "keywords": [
+        "clipboard",
+        "copy",
+        "paste",
+        "ecosystem:cordova",
+        "cordova-ios",
+        "cordova-android",
+        "cordova-windows"
+    ],
+    "homepage": "https://github.comNonostante/cordova-plugin-util-clipboard#readme",    
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/Nonostante/cordova-plugin-util-clipboard.git"
+    },
+    "bugs": {
+        "url": "https://github.comNonostante/cordova-plugin-util-clipboard/issues"
+    }
+}

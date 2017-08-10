@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<plugin xmlns="http://apache.org/cordova/ns/plugins/1.0"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    id="cordova-plugin-util-clipboard"
+    version="0.0.1">
+
+    <engines>
+        <engine name="cordova" version=">=5.0.0" />
+    </engines>
+
+    <name>ClipboardPlugin</name>
+
+    <description>Clipboard plugin for Cordova</description>
+
+    <author>Nonostante Games</author>
+
+    <keywords>clipboard,copy,paste</keywords>
+
+    <license>MIT</license>
+
+    <js-module src="www/clipboard.js" name="Clipboard">
+        <clobbers target="window.plugins.clipboard" />
+    </js-module>
+
+    <platform name="windows">
+        <js-module src="src/windows/ClipboardProxy.js" name="ClipboardProxy">
+            <merges target="" />
+        </js-module>
+    </platform>
+</plugin>
